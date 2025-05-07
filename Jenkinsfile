@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/mirapery/com.mirapery.ShoppingCartCalculator.git'
+                git branch: 'main', url: 'https://github.com/mirapery/shopping_cart_calculator.git'
             }
         }
         stage('Build') {
